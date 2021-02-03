@@ -1,9 +1,13 @@
+
 <script>
-function playRound(playerSelection, computerSelection) {
-    // your code here!
+  function computerPlay(){
+
+return computerSelection[Math.floor(Math.random()*computerSelection.length)]
   }
-  
-  const playerSelection = "rock";
-  const computerSelection = computerPlay();
-  console.log(playRound(playerSelection, computerSelection));
-  </script>
+
+var computerSelection = ["rock", "paper", "scissors"];
+console.log(computerPlay(computerSelection));
+</script>
+
+
+
